@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;900&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,200&display=swap');
+body {
+  font-family: 'Playfair Display', serif;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.i-text {
+  text-align: center;
+}
+.i-text h4 {
+
+  font-size: 38px;
+  line-height: 1.6;
+  color: rgba(0,0,0,0.85);
+}
+
+.i-text p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: rgba(0,0,0,0.85);
+}
+
+
+.box {
+  /*	display: inline-block;*/
+    padding-top: 150px;
+    position: relative;
+    text-align: center;
+    
+  }
+  .box::before {
+    bottom: 40px;
+    content: "";
+    height: 80px;
+    position: absolute;
+    background: #000;
+    width: 1px;
+    left: 50%;
+    transition: 0.9s;
+  }
+  .box:hover::before {
+    height: 0;
+  }
+  .box::after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    background: #000;
+    bottom: 0;
+    left: 45%;
+    transition: 0.9s;
+  }
+  .box:hover::after {
+    width: 9%;
+  }
+
+  .intro img {
+    width: 48vw;
+  }

@@ -1,0 +1,39 @@
+footer {
+	background: #E58C23;
+}
+
+.list {
+	list-style: none;
+}
+.email {
+	border: 1px solid #fff;
+	border-radius: 50px;
+	height: 48px;
+	width: 180px;
+	margin: 40px auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.email p {
+	line-height: 1;
+	font-size: 14px;
+	margin: auto;
+}
+.email a {
+	background-color: #fff;
+	border-radius: 50%;
+	color: #E58C23;
+	height: 60px;
+	width: 60px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}
+.fEnd {
+	text-align: center;
+	font-size: 16px;
+	border-top: 1px solid #fff;
+	padding-top: 15px;
+	padding-bottom: 5px;
+}

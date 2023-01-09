@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* products css */
+.fbox {
+	position: relative;
+	margin: 0 5px;
+	background: greenyellow;
+	text-align: center;
+}
+/* --------------------------------------------------------- */
+
+/* discover info */
+.discover .separate img {
+width: 130px;
+vertical-align: middle;
+}
+
+.discover .separate {
+margin: 15px 0;
+text-align: center;
+}
+
+.discover .separate h5 {
+
+font-size: 20px;
+margin: 10px auto;
+max-width: 190px;
+text-transform: uppercase;
+}
+
+.box {
+/*	display: inline-block;*/
+padding-top: 150px;
+position: relative;
+text-align: center;
+
+}
+.box::before {
+bottom: 40px;
+content: "";
+height: 80px;
+position: absolute;
+background: #000;
+width: 1px;
+left: 50%;
+transition: 0.9s;
+}
+.box:hover::before {
+height: 0;
+}
+.box::after {
+content: "";
+position: absolute;
+width: 1px;
+height: 1px;
+background: #000;
+bottom: 0;
+left: 45%;
+transition: 0.9s;
+}
+.box:hover::after {
+width: 9%;
+}
+/* --------------------------------------------------------- */
+
+/* footer css */
+footer {
+	background: #E58C23;
+}
+#fEnd {
+	text-align: center;
+	font-size: 16px;
+}
+
+.list {
+	list-style: none;
+}
+
+/* --------------------------------------------------------- */

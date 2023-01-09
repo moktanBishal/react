@@ -1,0 +1,56 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	height: 1200px;
+}
+
+.banner {
+	/*height: 100vh;
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.3)), url(https://app.aamakoachar.com/storage/homepages/September2022/KB1ZIDxsu2BFdUG0L3Q7.mp4);
+/*	position: relative;*/
+	background-size: cover;*/
+}
+.banner video {
+	width: 100%;
+}
+nav {
+  text-transform: uppercase;
+  z-index: 9;
+}
+
+nav .logo img {
+	width: 110px;
+}
+
+nav li {
+    display: inline;
+    position: relative;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: lightgoldenrodyellow;
+    color: #888;
+    z-index: 999;
+}
+.b-text {
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	color: #fff;
+	z-index: 2;
+	transform: translate(-50%,-50%);
+}
+.b-text h1 {
+	font-size: 100px;
+}
+.b-text p {
+	font-size: 16px;
+	line-height: 1.6;
+}
