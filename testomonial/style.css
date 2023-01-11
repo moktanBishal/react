@@ -1,0 +1,24 @@
+body {
+	background: burlywood;
+}
+.heading {
+  text-align: center;
+  font-size: 24px;
+  line-height: 29px;
+}
+.cbox {
+	position: relative;
+	/* margin: 0 5px; */
+	background: #E58C23;
+	text-align: center;
+  padding: 20px;
+  scale: 0.9;
+}
+
+.customer img {
+  border-radius: 50%;
+  height: 280px;
+}
+.cbox:hover {
+  scale: 1;
+}

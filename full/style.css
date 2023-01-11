@@ -25,7 +25,13 @@ nav {
   text-transform: uppercase;
   z-index: 9;
 }
-
+.nav-link {
+  color: goldenrod;
+}
+.navbar-nav .nav-link.active {
+  background-color: rgba(0,0,0,0.4);
+  color: brown;
+}
 .logo img {
 	width: 110px;
 }
@@ -182,9 +188,39 @@ width: 9%;
 }
 /* --------------------------------------------------------- */
 
+/* testomonial css */
+body {
+	background: #FFFFFF;
+}
+.heading {
+  text-align: center;
+  font-size: 24px;
+  line-height: 29px;
+}
+.cbox {
+	position: relative;
+	/* margin: 0 5px; */
+	background: #E58C23;
+	text-align: center;
+  padding: 20px;
+  scale: 0.9;
+  height: 550px;
+}
+
+.customer img {
+  border-radius: 50%;
+  height: 280px;
+}
+.cbox:hover {
+  scale: 1;
+}
+
+/* --------------------------------------------------------- */
+
 /* footer css */
 footer {
 	background: #E58C23;
+  margin-top: 20px;
 }
 
 .list {
@@ -223,4 +259,22 @@ footer {
 	padding-bottom: 5px;
 }
 
+/* --------------------------------------------------------- */
+
+/* product html css */
+.product {
+  height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.3)), url("https://app.aamakoachar.com/storage/products/September2022/kD2DsuXMERMZOYOc7pOU.jpg");
+  background-size: cover;
+}
+
+.p-box {
+  width: 33%;
+  margin-top: 20px;
+}
+
+.p-box img {
+  object-fit: cover;
+  width: 100%;
+}
 /* --------------------------------------------------------- */
